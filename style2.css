@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    border-bottom: #77aaff 3px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header .logo {
+    margin-left: 40%;
+    width: 20%; /* Збільшено розмір логотипу */
+  
+    margin-right: 20px; /* Додано відступ між логотипом та заголовком */
+}
+header h1 {
+    margin: 0;
+    text-align: center;
+}
+nav {
+    background: #444;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+nav .nav-link {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+}
+nav .nav-link:hover {
+    background: #77aaff;
+
+}
+main {
+    padding: 20px 0;
+}
+main h1 {
+    text-align: center;
+    color: #333;
+}
+.info, .schedule {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+article {
+    background: #fff;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: calc(50% - 20px);
+    box-sizing: border-box;
+}
+article img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+.article-but {
+    display: inline-block;
+    color: #fff;
+    background: #77aaff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    display: block;
+    text-align: center;
+}
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+footer p {
+    margin: 0;
+}
+
+.sunday {
+    width: 100%;
+    text-align: center;
+}
